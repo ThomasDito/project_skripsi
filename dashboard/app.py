@@ -13,7 +13,7 @@ st.markdown("<h1 style='text-align: center;'>Prediksi Jumlah Penjualan Produk<br
 
 # Input pengguna
 inventory_level = st.number_input("Inventory Level", min_value=0)
-demand = st.number_input("Demand", min_value=0.0)
+demand = st.number_input("Demand", min_value=0)
 price = st.number_input("Price (IDR)", min_value=0.0)
 discount = st.slider("Discount (%)", min_value=0.0, max_value=100.0, step=1.0)
 competitor_price = st.number_input("Competitor Pricing", min_value=0.0)
