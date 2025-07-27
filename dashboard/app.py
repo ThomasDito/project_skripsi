@@ -8,7 +8,8 @@ model = joblib.load('final_rf_model.pkl')
 seasonality_encoder = joblib.load('seasonality_encoder.pkl')
 
 # Judul aplikasi
-st.title("Prediksi Jumlah Penjualan Produk Toko Retail")
+st.markdown("<h1 style='text-align: center;'>Prediksi Jumlah Penjualan Produk<br>Toko Retail</h1>", unsafe_allow_html=True)
+
 
 # Input pengguna
 inventory_level = st.number_input("Inventory Level", min_value=0)
